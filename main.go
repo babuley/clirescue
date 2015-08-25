@@ -10,7 +10,7 @@ func main() {
 	app := cli.NewApp()
 
 	app.Name = "clirescue"
-	app.Usage = "CLI tool to talk to the Pivotal Tracker's API"
+	app.Usage = "CLI tool kit to talk to the Pivotal Tracker's API"
 
 	app.Commands = []cli.Command{
 		{
